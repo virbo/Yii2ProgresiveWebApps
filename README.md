@@ -26,8 +26,11 @@ git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 ...
 ~~~
 
-4. Edit file `AndroidManifest.xml`, rubah `value` dan `host` menjadi alamat PWA anda
+4. Edit file `AndroidManifest.xml`, rubah `package` sesuai `applicationId` diatas, selain itu rubah `value` dan `host` menjadi alamat PWA anda
 ~~~
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yiipwa.apps">
 ...
     <!-- Edit android:value to handle links to the target URL-->
     <meta-data
@@ -61,7 +64,9 @@ git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 
 6. Create file Digital Asset Link melalui alamat https://developers.google.com/digital-asset-links/tools/generator lalu upload ke server pwa Anda. Dokumentasi lengkapnya dapat ditemukan di https://developers.google.com/digital-asset-links/v1/getting-started
 
-7. Build Signed Bundle/APK dan Upload ke Play Store
+7. Running project (CTRL+R)
+
+8. Build Signed Bundle/APK dan Upload ke Play Store
 
 Referensi
 ----------
