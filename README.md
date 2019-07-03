@@ -14,7 +14,9 @@ Cara menggunakan
 git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 ~~~
 
-2. Edit `applicationId` di `app\build.gradle` menjadi nama package anda
+2. Import project ke Android Studio melalui menu `File > New > Import Project`, lalu pilih folder yang di cloning diatas
+
+3. Edit `applicationId` di `app\build.gradle` menjadi nama package anda
 ~~~
 ...
     defaultConfig {
@@ -24,7 +26,7 @@ git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 ...
 ~~~
 
-3. Edit file `AndroidManifest.xml`, rubah `value` dan `host` menjadi alamat PWA anda
+4. Edit file `AndroidManifest.xml`, rubah `value` dan `host` menjadi alamat PWA anda
 ~~~
 ...
     <!-- Edit android:value to handle links to the target URL-->
@@ -43,7 +45,7 @@ git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 ...
 ~~~
 
-4. Edit file `app\src\main\res\values\strings.xmls`, rubah `site` menjadi alamat PWA anda
+5. Edit file `app\src\main\res\values\strings.xmls`, rubah `site` menjadi alamat PWA anda
 ~~~
 ...
     <string name="asset_statements">
@@ -57,9 +59,9 @@ git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 ...
 ~~~
 
-5. Create file Digital Asset Link melalui alamat https://developers.google.com/digital-asset-links/tools/generator lalu upload ke server pwa Anda. Dokumentasi lengkapnya dapat ditemukan di https://developers.google.com/digital-asset-links/v1/getting-started
+6. Create file Digital Asset Link melalui alamat https://developers.google.com/digital-asset-links/tools/generator lalu upload ke server pwa Anda. Dokumentasi lengkapnya dapat ditemukan di https://developers.google.com/digital-asset-links/v1/getting-started
 
-6. Build Signed Bundle/APK dan Upload ke Play Store
+7. Build Signed Bundle/APK dan Upload ke Play Store
 
 Referensi
 ----------
