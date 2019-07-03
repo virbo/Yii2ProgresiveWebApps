@@ -1,4 +1,4 @@
-package com.yiipwa.tes;
+package com.yiipwa.apps;
 
 import org.junit.Test;
 
