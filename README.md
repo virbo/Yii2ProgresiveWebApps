@@ -6,6 +6,9 @@
     <br>
 </p>
 
+Cara menggunakan
+-----------------
+
 1. Clone project ini
 ~~~
 git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
@@ -56,3 +59,8 @@ git clone https://github.com/virbo/Yii2ProgresiveWebApps.git
 
 5. Create file Digital Asset Link melalui alamat https://developers.google.com/digital-asset-links/tools/generator lalu upload ke server pwa Anda. Dokumentasi lengkapnya dapat ditemukan di https://developers.google.com/digital-asset-links/v1/getting-started
 
+6. Build Signed Bundle/APK dan Upload ke Play Store
+
+Referensi
+----------
+https://developers.google.com/web/updates/2019/02/using-twa
