@@ -12,4 +12,6 @@
 /captures
 .externalNativeBuild
 /app/release
+/app/src/androidTest
+/app/src/test
 .idea/vcs.xml
