@@ -16,3 +16,5 @@
 /app/src/androidTest
 /app/src/test
 .idea/vcs.xml
+my-keystore.ks
+upload-keystore.jks
